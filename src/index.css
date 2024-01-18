@@ -86,3 +86,22 @@ input:focus{
     padding: 1rem;
   }
 }
+
+@media (max-width: 367px) {
+  img,
+  .imageCover {
+    width: 224px !important;
+  }
+  .imageCover{
+    margin: 0 auto;
+  }
+  .generateContainer{
+    flex-direction: column;
+    gap: 0.4rem;
+    max-width: 100%;
+  }
+  input{
+    width: auto;
+    display: flex;
+  }
+}
