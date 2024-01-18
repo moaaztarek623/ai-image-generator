@@ -37,7 +37,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter basename="ai-image-generator">
+    
       <div className="App">
         <div>
           <h1>Ai Image Generator</h1>
@@ -77,7 +77,7 @@ function App() {
           </a>
         </footer>
       </div>
-    </BrowserRouter>
+
   );
 }
 
