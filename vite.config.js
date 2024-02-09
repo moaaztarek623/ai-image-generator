@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/ai-image-generator/'
+  base: 'https://moaaztarek623.github.io/ai-image-generator/'
 })
